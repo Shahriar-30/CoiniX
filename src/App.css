@@ -1,0 +1,282 @@
+.input {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    text-indent: 10px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.entier {
+    height: 100vh;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.pending {
+    color: blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.close {
+    color: crimson;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.approve {
+    color: rgb(4, 148, 4);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.inputLable {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+.sub_text {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.412);
+    margin-top: -10px;
+}
+
+.Brand_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    padding-left: 10px;
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.emailerr {
+    margin-top: -18px;
+}
+
+.box {
+    /* background: #000; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acc_btn {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.next_acc_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.next_acc_box p {
+    margin: 0;
+}
+
+.next_acc_box .next_acc {
+    color: #F7931A;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.next_acc_box .next_acc:hover {
+    text-decoration: underline;
+}
+
+.prime {
+    color: #F7931A;
+}
+
+.prime_bg {
+    background: #F7931A;
+}
+
+.pass_box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.pass {
+    max-width: 250px;
+}
+
+.pass_eye_box {
+    border: 2px solid black;
+    padding: 8px 5px;
+    border-radius: 8px;
+}
+
+.pass_eye {
+    cursor: pointer;
+    font-size: 28px;
+
+}
+.money_box{
+    /* position: absolute; */
+    /* float: right; */
+    background-color: rgba(0, 0, 0, 0.205);
+    width: fit-content;
+    height: 100%;
+    margin-top: -220px;
+    z-index: 999;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.money_m{
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 100%;
+    max-width: 340px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+.money_m p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .6px;
+}
+.money_m p span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #F7931A;
+}
+.money_m Button{
+    background-color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 18px;
+}
+.money_btn{
+    display: flex;
+    gap: 10px;
+}
+
+.wallet{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.183);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wal_box{
+    background-color: #f4f2f2;
+    width: 100%;
+    max-width: 320px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.wal_m{
+    font-size: 80px;
+    font-weight: 600;
+}
+.wal_thk{
+    font-weight: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+.wal_hor{
+    font-size: 20px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.wal_issue{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(220, 20, 60, 0.485);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.wal_btn{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    margin-top: 10px;
+}
+
+
+.call_box{
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.waitingTime{
+    text-align: center;
+    color: #fff;
+}
+
+.waitingBtn{
+    padding: 5px 30px;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .6px;
+}

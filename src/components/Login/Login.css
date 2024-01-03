@@ -1,0 +1,27 @@
+
+.forget{
+    padding: 5px 0 0 10px;
+    user-select: none;
+    cursor: pointer;
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.block{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.157);
+    padding: 10px;
+    border-radius: 10px;
+}
+.block p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.new_acc{
+    color: #F7931A;
+    text-decoration: none;
+    
+}
+.new_acc:hover{
+    text-decoration: underline;
+}

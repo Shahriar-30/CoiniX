@@ -1,0 +1,149 @@
+.depo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.depo_h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.depo_trust {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 90px;
+}
+
+.depo_box {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.screen_cls {
+    display: none;
+}
+
+.screen_desi {
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+.proff_mark {
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.depo_btn {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.depo_item_box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.depo_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.187);
+    width: 100%;
+    padding: 8px;
+}
+
+.item_net {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.item_amount {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.depo_p {
+    font-weight: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.436);
+    margin-top: -15px;
+}
+
+.depo_mes {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin: 10px 0 0 0;
+    background-color: rgba(220, 20, 60, 0.446);
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.make_box {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.make_id {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-indent: 10px;
+    cursor: pointer;
+}
+
+.make_ic {
+    font-size: 30px;
+    cursor: pointer;
+    color: blue;
+}
+
+.depo_wallet {
+    background-color: #fff;
+    width: 100%;
+    max-width: 320px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.68);
+    user-select: none;
+}
+
+.depo_wallet p {
+    font-size: 25px;
+    font-weight: 600;
+    /* color: blue; */
+}

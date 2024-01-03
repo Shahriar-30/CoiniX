@@ -1,0 +1,32 @@
+.support{
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.gap{
+    margin-top: 50px;
+}
+
+.support_img{
+    font-size: 120px;
+}
+.support_text{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.support_btn{
+    width: 300px;   
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.support_tele{
+    font-size: 28px;
+    margin-right: 10px;
+}
